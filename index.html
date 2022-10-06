@@ -1,41 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <style>
+    #parrafos{
+      text-align: justify;
+      word-spacing: 11px;
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary d-flex">
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Navbar</a>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          </form>
+    <a class="navbar-brand ms-2" href="#">LOREM IMPSUM</a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <div>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+          <li class="nav-item active mx-5">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a id="searchBar" class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+      <div class="ms-auto">
+        <form class="form-inline my-2 my-lg-0 me-3">
+          <input style="width: 220px;" class="form-control mr-sm-2" type="search" placeholder="Search"
+            aria-label="Search">
+        </form>
+      </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+  <div class="container">
+    <div class="row p-5 mt-2">
+      <div class="col text-center">
+        <h3>Lorem Ipsum...</h3>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+
+              <h5>Lorem ipsum dolor, sit amet consectetur adipisicing.</h5>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <h5>sunt consequatur velit dolorum. Ratione incidunt labore ipsa maiores! </h5>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <h5>saepe quisquam facere molestiae facilis tempora beatae?</h5>
+            </div>
+          </div>
         </div>
-      </nav>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-3 mt-3 w-100">
+        <ul class="list-group">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+      </div>
+      <div id="parrafos" class="col-9 row text">
+        <div class="col-4 py-1 bg-light h-25">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
+            rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <div class="col-4 py-1 bg-light h-25">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
+            rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <div class="col-4 py-1 bg-light h-25">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
+            rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <div class="col-4 py-1 bg-light h-25">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
+            rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <div class="col-4 py-1 bg-light h-25">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
+            rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <div class="col-4 py-1 bg-light h-25">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
+            rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <div class="col-4 py-1 bg-light h-25">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
+            rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <div class="col-4 py-1 bg-light h-25">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
+            rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+      
+      
+
+      </div>
+
+      
+    </div>
+    
+    
+
+  </div>
+
+  <div class="row">
+
+
+  </div>
+
+  </div>
 
 
 </body>
+
 </html>
