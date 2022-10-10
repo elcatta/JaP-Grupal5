@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
   <style>
-    #parrafos{
+    #parrafos {
       text-align: justify;
       word-spacing: 11px;
     }
@@ -19,124 +19,149 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary d-flex">
-    
-    <a class="navbar-brand ms-2" href="#">LOREM IMPSUM</a>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <div>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-
-          <li class="nav-item active mx-5">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary" style="overflow:visible">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LOREM IMPSUM</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-lg-5 d-lg-none mt-2 ">
+            <form>
+              <input class="form-control mr-sm-2 me-1 " type="search" placeholder="Search" aria-label="Search">
+            </form>
           </li>
-          <li class="nav-item mx-5">
-            <a class="nav-link" href="#">Link</a>
+
+          <li class="nav-item mx-lg-5">
+            <a class="nav-link active" aria-current="page" href="#">Dolor</a>
           </li>
-          <li class="nav-item mx-5">
-            <a id="searchBar" class="nav-link disabled" href="#">Disabled</a>
+          <li class="nav-item mx-lg-5">
+            <a class="nav-link" href="#">Sit</a>
           </li>
-        </ul>
+
+          <li class="nav-item mx-lg-5">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Amet</a>
+          </li>
+
+          <li class="nav-item dropdown mx-lg-5 d-lg-none d-md-block">
+            
+            <a class="nav-link" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">Opciones</a>
+            <ul class="dropdown-menu p-0 mt-4 col-9" aria-labelledby="dropdownMenuButton2" style="position:absolute; margin-left: 7em; ">
+              
+              <li class="list-group-item py-3"><u>Opción 1</u></li>
+              <li class="list-group-item py-3"><u>Opción 2</u></li>
+              <li class="list-group-item py-3"><u>Opción 3</u></li>
+              <li class="list-group-item py-3"><u>Opción 4</u></li>
+              
+           
+            </ul>
+          </li>
+
+
       </div>
-      <div class="ms-auto">
-        <form class="form-inline my-2 my-lg-0 me-3">
-          <input style="width: 220px;" class="form-control mr-sm-2" type="search" placeholder="Search"
-            aria-label="Search">
-        </form>
-      </div>
+
+
+
+      </ul>
+      <form class="d-flex d-none d-lg-block">
+        <input style="width:220px;" class="form-control mr-sm-2 me-1" type="search" placeholder="Search"
+          aria-label="Search">
+
+      </form>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    </div>
   </nav>
-  <div class="container">
-    <div class="row p-5 mt-2">
-      <div class="col text-center">
+
+
+  <div class="container-sm">
+    <div class="row my-lg-5 my-sm-3 justify-content-center">
+      <div class="col-lg-6 text-center d-none d-lg-block">
         <h3>Lorem Ipsum...</h3>
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="2000">
+            <div class="carousel-item active " data-bs-interval="2000">
 
               <h5>Lorem ipsum dolor, sit amet consectetur adipisicing.</h5>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-              <h5>sunt consequatur velit dolorum. Ratione incidunt labore ipsa maiores! </h5>
+              <h5>sunt consequatur velit dolorum. Ratione </h5>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-              <h5>saepe quisquam facere molestiae facilis tempora beatae?</h5>
+              <h5>saepe quisquam facere molestiae </h5>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-3 mt-3 w-100">
+    <div class="row justify-content-center">
+      <div class="col-lg-3 col-sm-12 d-none d-lg-block mt-3">
         <ul class="list-group">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-          <li class="list-group-item">A fourth item</li>
-          <li class="list-group-item">And a fifth one</li>
+          
+          <li class="list-group-item py-3"><u>Opción 1</u></li>
+          <li class="list-group-item py-3"><u>Opción 2</u></li>
+          <li class="list-group-item py-3"><u>Opción 3</u></li>
+          <li class="list-group-item py-3"><u>Opción 4</u></li>
         </ul>
       </div>
-      <div id="parrafos" class="col-9 row text">
-        <div class="col-4 py-1 bg-light h-25">
+      <div id="parrafos" class="col-lg-9 col-md-12 row">
+        <div class="col-lg-4 col-md-6 py-1 bg-light ">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
             rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
           </p>
         </div>
-        <div class="col-4 py-1 bg-light h-25">
+        <div class="col-lg-4 col-md-6 py-1 bg-light">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
             rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
           </p>
         </div>
-        <div class="col-4 py-1 bg-light h-25">
+        <div class="col-lg-4 col-md-6 py-1 bg-light">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
             rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
           </p>
         </div>
-        <div class="col-4 py-1 bg-light h-25">
+        <div class="col-lg-4 col-md-6 py-1 bg-light ">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
             rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
           </p>
         </div>
-        <div class="col-4 py-1 bg-light h-25">
+        <div class="col-lg-4 col-md-6 py-1 bg-light ">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
+            rerum iure animi!
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6 py-1 bg-light ">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
             rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
           </p>
         </div>
-        <div class="col-4 py-1 bg-light h-25">
+        <div class="col-lg-4 col-md-6 py-1 bg-light ">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
             rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
           </p>
         </div>
-        <div class="col-4 py-1 bg-light h-25">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
-            rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
-          </p>
-        </div>
-        <div class="col-4 py-1 bg-light h-25">
+        <div class="col-lg-4 col-md-6 py-1 bg-light ">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem eius soluta eaque porro quaerat
             rerum iure animi! Natus vero adipisci iste ut molestiae. Lorem ipsum dolor sit amet.
           </p>
         </div>
       </div>
-      
-      
 
-      </div>
 
-      
+
     </div>
-    
-    
+
+
+  </div>
+
+
 
   </div>
 
