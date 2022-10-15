@@ -2,7 +2,11 @@
     margin-left: 1370px;
 }
 
-
+@media only screen and (max-width: 768px) {
+   #opciones{
+    width: 100%;
+   }
+  }
 #opciones{
     position: fixed;
     top: 150px;
